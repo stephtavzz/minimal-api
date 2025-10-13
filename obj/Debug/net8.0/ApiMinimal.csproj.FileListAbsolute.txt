@@ -1,0 +1,7 @@
+C:\Users\Stephanie Santos\Documents\ApiMinimal\obj\Debug\net8.0\ApiMinimal.csproj.AssemblyReference.cache
+C:\Users\Stephanie Santos\Documents\ApiMinimal\obj\Debug\net8.0\ApiMinimal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stephanie Santos\Documents\ApiMinimal\obj\Debug\net8.0\ApiMinimal.AssemblyInfoInputs.cache
+C:\Users\Stephanie Santos\Documents\ApiMinimal\obj\Debug\net8.0\ApiMinimal.AssemblyInfo.cs
+C:\Users\Stephanie Santos\Documents\ApiMinimal\obj\Debug\net8.0\ApiMinimal.csproj.CoreCompileInputs.cache
+C:\Users\Stephanie Santos\Documents\ApiMinimal\obj\Debug\net8.0\ApiMinimal.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Stephanie Santos\Documents\ApiMinimal\obj\Debug\net8.0\rpswa.dswa.cache.json
