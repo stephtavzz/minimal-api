@@ -111,7 +111,7 @@ flowchart TD
 
 ## 🧍‍♂️ Entidades Principais
 
-# 🧑‍💼 Administrador
+### 🧑‍💼 Administrador
 
 
 | Propriedade | Tipo         | Restrição    |
@@ -122,7 +122,7 @@ flowchart TD
 | Perfil      | string (50)  | Required     |
 
 
-# 🚗 Veículo
+### 🚗 Veículo
 
 
 | Propriedade | Tipo         | Restrição        |
@@ -136,19 +136,20 @@ flowchart TD
 ## ⚙️ Endpoints Principais
 
 
-# 🌐 Rota Base
+### 🌐 Rota Base
 
 GET /
 
 Retorno:
 
+````
 {
   "mensagem": "Bem vindo a API de veículos - Minimal API",
   "doc": "/swagger"
 }
+````
 
-
-# 👨‍💼 Administradores
+### 👨‍💼 Administradores
 
 
 | Método | Rota                     | Descrição                           |
@@ -161,15 +162,15 @@ Retorno:
 
 Exemplo de requisição (POST /administradores):
 
-
+````
 {
   "email": "adm@teste.com",
   "senha": "123456",
   "perfil": "adm"
 }
+````
 
-
-# 🚘 Veículos
+### 🚘 Veículos
 
 
 
@@ -185,10 +186,85 @@ Exemplo de requisição (POST /administradores):
 
 Exemplo de criação de veículo (POST /veiculos):
 
-
+````
 {
   "nome": "Civic",
   "marca": "Honda",
   "ano": 2023
 }
+`````
+
+##🧪 Como Executar o Projeto
+
+###1️⃣ Clone o repositório
+
+````
+git clone https://github.com/stephtavzz/minimal-api.git
+````
+
+###2️⃣ Configure o banco de dados
+
+No arquivo appsettings.json, adicione sua connection string:
+
+````
+"ConnectionStrings": {
+  "ConexaoPadrao": "Server=localhost;Database=ApiMinimalDB;Trusted_Connection=True;TrustServerCertificate=True;"
+}
+````
+
+###3️⃣ Execute as migrations
+
+````
+dotnet ef database update
+````
+
+###4️⃣ Execute o projeto
+
+````
+dotnet run
+`````
+
+Acesse a documentação interativa (Swagger):
+👉 http://localhost:5000/swagger
+
+
+## 🧰 Tecnologias Utilizadas
+
+| Tecnologia                  | Descrição                      |
+| --------------------------- | ------------------------------ |
+| **C#**                      | Linguagem principal            |
+| **.NET 9**                  | Framework utilizado            |
+| **Entity Framework Core**   | ORM para persistência de dados |
+| **SQL Server**              | Banco de dados relacional      |
+| **Swagger (Swashbuckle)**   | Documentação da API            |
+| **Visual Studio / VS Code** | Ambiente de desenvolvimento    |
+
+## 💾 Exemplo de Retorno (Swagger)
+
+````
+[
+  {
+    "id": 1,
+    "nome": "Fiesta",
+    "marca": "Ford",
+    "ano": 2019
+  }
+]
+````
+
+## 🧑‍💻 Autora
+
+Stephanie Tavares dos Santos
+🎓 Formada em Jogos Digitais e Técnico em Desenvolvimento de Sistemas
+💼 Experiência com C#, Entity Framework, Modelagem 3D e Design Digital
+
+
+##🌐 Inspiração - DIO Challenge
+
+“Agora é a sua hora de brilhar e construir um perfil de destaque na DIO!
+Explore todos os conceitos explorados até aqui e replique (ou melhore!) este projeto prático.”
+
+
+
+
 
