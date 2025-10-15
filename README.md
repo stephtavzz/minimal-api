@@ -194,15 +194,15 @@ Exemplo de criação de veículo (POST /veiculos):
 }
 `````
 
-##🧪 Como Executar o Projeto
+## 🧪 Como Executar o Projeto
 
-###1️⃣ Clone o repositório
+### 1️⃣ Clone o repositório
 
 ````
 git clone https://github.com/stephtavzz/minimal-api.git
 ````
 
-###2️⃣ Configure o banco de dados
+### 2️⃣ Configure o banco de dados
 
 No arquivo appsettings.json, adicione sua connection string:
 
@@ -212,13 +212,13 @@ No arquivo appsettings.json, adicione sua connection string:
 }
 ````
 
-###3️⃣ Execute as migrations
+### 3️⃣ Execute as migrations
 
 ````
 dotnet ef database update
 ````
 
-###4️⃣ Execute o projeto
+### 4️⃣ Execute o projeto
 
 ````
 dotnet run
@@ -254,14 +254,18 @@ Acesse a documentação interativa (Swagger):
 
 ## 🧑‍💻 Autora
 
-Stephanie Tavares dos Santos
-🎓 Formada em Jogos Digitais e Técnico em Desenvolvimento de Sistemas
-💼 Experiência com C#, Entity Framework, Modelagem 3D e Design Digital
+**Stephanie Tavares dos Santos**
+
+- 🎓 Formada em Jogos Digitais;
+- 💼 Experiência com C#, Entity Framework, Modelagem 3D e Design Digital.
+
+🔗 [LinkedIn](https://www.linkedin.com/in/stephanie-t-santos/)  
+💻 [GitHub](https://github.com/stephtavzz)  
 
 
-##🌐 Inspiração - DIO Challenge
+## 🌐 Inspiração - DIO Challenge
 
-“Agora é a sua hora de brilhar e construir um perfil de destaque na DIO!
+> “Agora é a sua hora de brilhar e construir um perfil de destaque na DIO!
 Explore todos os conceitos explorados até aqui e replique (ou melhore!) este projeto prático.”
 
 
